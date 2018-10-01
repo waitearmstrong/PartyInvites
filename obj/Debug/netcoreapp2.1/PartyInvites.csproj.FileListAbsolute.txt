@@ -32,3 +32,4 @@ c:\users\waite-laptop\documents\visual studio 2017\Projects\PartyInvites\PartyIn
 c:\users\waite-laptop\documents\visual studio 2017\Projects\PartyInvites\PartyInvites\obj\Debug\netcoreapp2.1\PartyInvites.csproj.CopyComplete
 c:\users\waite-laptop\documents\visual studio 2017\Projects\PartyInvites\PartyInvites\obj\Debug\netcoreapp2.1\Razor\Views\Home\MyView.g.cshtml.cs
 c:\users\waite-laptop\documents\visual studio 2017\Projects\PartyInvites\PartyInvites\obj\Debug\netcoreapp2.1\Razor\Views\Home\RSVPForm.g.cshtml.cs
+c:\users\waite-laptop\documents\visual studio 2017\Projects\PartyInvites\PartyInvites\obj\Debug\netcoreapp2.1\Razor\Views\Home\Thanks.g.cshtml.cs
