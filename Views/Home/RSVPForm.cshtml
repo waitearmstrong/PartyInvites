@@ -13,17 +13,18 @@
 </head>
 <body>
     <form asp-action="RsvpForm" method="post">
+        <div asp-validation-summary="All"></div>
         <p>
             <label asp-for="Name">Your name:</label>
-            <input asp-for="Name" />
+            <input asp-for="Name"/>
         </p>
         <p>
             <label asp-for="Email">Your Email:</label>
-            <input asp-for="Email" />
+            <input asp-for="Email"/>
         </p>
         <p>
             <label asp-for="Phone">Your name:</label>
-            <input asp-for="Phone" />
+            <input asp-for="Phone"/>
         </p>
         <p>
             <label>Will you attend?</label>

@@ -15,7 +15,7 @@ namespace PartyInvites.Controllers
             int hour = DateTime.Now.Hour;
             ViewBag.Greeting = hour < 12 ? "Good Morning" : "Good Afternoon";
             return View("MyView");
-         }
+        }
         [HttpGet]
         public ViewResult RSVPForm()
         {
@@ -24,8 +24,19 @@ namespace PartyInvites.Controllers
         [HttpPost]
         public ViewResult RSVPForm(GuestResponse guestResponse)
         {
-            Repository.AddResponse(guestResponse);
-            return View("Thanks", guestResponse);
+            if (ModelState.IsValid)
+            {
+                Repository.AddResponse(guestResponse);
+                return View("Thanks", guestResponse);
+            }
+            else
+            {
+                return View();
+            }
+        }
+        public ViewResult ListResponses()
+        {
+            return View(Repository.Responses.Where(r => r.WillAttend == true));
         }
     }
 }
