@@ -66,7 +66,7 @@ using PartyInvites.Models;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(58, 150, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f3d37be864b94fb1bdd98eb96aa46a70", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "127964be7c964996b360a42cb007a916", async() => {
                 BeginContext(64, 137, true);
                 WriteLiteral("\r\n    <link rel=\"stylesheet\" href=\"/lib/bootstrap/dist/css/bootstrap.css\" />\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n");
                 EndContext();
@@ -86,12 +86,12 @@ using PartyInvites.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(210, 260, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bc8c3b0bab044c64ae42ae8a918dbac9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "60407318eb1f461b82ef09fdce1f9e57", async() => {
                 BeginContext(216, 153, true);
                 WriteLiteral("\r\n    <div class=\"text-center\">\r\n        <h3>We\'re going to have an exciting party!</h3>\r\n        <h4>And you\'re invited!</h4>\r\n        <p>\r\n            ");
                 EndContext();
                 BeginContext(369, 62, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "92d23706ecdb4105be4077f4b159d3b8", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "de14e2e88181440a90775068787cb22f", async() => {
                     BeginContext(418, 9, true);
                     WriteLiteral("RSVP Now!");
                     EndContext();
